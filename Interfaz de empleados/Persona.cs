@@ -94,4 +94,15 @@ class Pedido
     public string Obs { get => obs; set => obs = value; }
     public int Estado { get => estado; set => estado = value; }
     public string Cliente { get => cliente; set => cliente = value; }
+
+    string[]obsA={"Sin sal","Agregar Aderezo", "Sin Ketchup", "Agrandar pedido de papas", "Extra carne"};
+    Random r = new Random();
+
+    public Pedido(string Nom){
+        Nro=r.Next(0,101);
+        Obs=obsA[r.Next(0,5)];
+        //El estado sera: 0:entregado, 1:pendiente, 2: No entregado
+        Estado=r.Next(0,3);
+        Cliente=Nom;
+    }
 }
