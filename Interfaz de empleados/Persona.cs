@@ -39,9 +39,11 @@ class Cadete : Persona
 {
     private List<Pedido> listadopedidos = new List<Pedido>();
     private List<Pedido> listadoEntregados = new List<Pedido>();
+    private List<Pedido> listadoNoEntregados= new List<Pedido>();
 
     public List<Pedido> ListadoPedidos { get => listadopedidos; set => listadopedidos = value; }
     public List<Pedido> ListadoEntregados { get => listadoEntregados; set => listadoEntregados = value; }
+    public List<Pedido> ListadoNoEntregados { get => listadoNoEntregados; set => listadoNoEntregados = value; }
 
     string[] nombresA = { "Agustin", "Leandro", "Jose", "Juan", "Pedro", "Fransisco" };
     string[] direccionA = { "Asuncion 320", "Corrientes 234", "Av. Peron 256", "Peru 1921", "25 de Mayo 452" };
@@ -113,8 +115,8 @@ class Pedido
     public Pedido(string Nom,string dirN){
         Nro=r.Next(0,101);
         Obs=obsA[r.Next(0,5)];
-        //El estado sera: 0:entregado, 1:pendiente, 2: No entregado
-        Estado=r.Next(0,3);
+        //El estado sera: 0:entregado, 1:No entregado
+        Estado=r.Next(0,2);
         Cliente=Nom;
         Dir=dirN;
     }
