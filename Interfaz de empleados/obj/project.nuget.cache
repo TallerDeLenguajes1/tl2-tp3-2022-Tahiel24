@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sqFmSt2G+d9ChDDevC7YEYo3IXXyFNBhaCEn46jTAbnD6szwiAY0cSkIp9Cs+AFj5vaIVESV92YZ591i35ndJQ==",
+  "dgSpecHash": "HunuiR/pK+QmiGufiQK4qRwzxMLuLAvrPEGBBlJjEzyixBzZk9a0+nd5xtsErmODx2L1dclP/lz+JdK3F95zgg==",
   "success": true,
-  "projectFilePath": "C:\\Taller2\\tl2-tp3-2022-Tahiel24\\Interfaz de empleados\\Interfaz de empleados.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\TALLER 2\\REPOS\\Interfaz de empleados\\Interfaz de empleados.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tahiel\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

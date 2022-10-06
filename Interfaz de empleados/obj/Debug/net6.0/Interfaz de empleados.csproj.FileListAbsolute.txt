@@ -1,0 +1,18 @@
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\nlog.config
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\Interfaz de empleados.exe
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\Interfaz de empleados.deps.json
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\Interfaz de empleados.runtimeconfig.json
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\Interfaz de empleados.dll
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\Interfaz de empleados.pdb
+C:\TALLER 2\REPOS\Interfaz de empleados\bin\Debug\net6.0\NLog.dll
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.csproj.AssemblyReference.cache
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.GeneratedMSBuildEditorConfig.editorconfig
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.AssemblyInfoInputs.cache
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.AssemblyInfo.cs
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.csproj.CoreCompileInputs.cache
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.csproj.CopyComplete
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.dll
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\refint\Interfaz de empleados.dll
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.pdb
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\Interfaz de empleados.genruntimeconfig.cache
+C:\TALLER 2\REPOS\Interfaz de empleados\obj\Debug\net6.0\ref\Interfaz de empleados.dll

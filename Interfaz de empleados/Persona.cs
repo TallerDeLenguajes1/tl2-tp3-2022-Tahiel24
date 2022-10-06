@@ -1,3 +1,4 @@
+using TP3;
 public abstract class Persona
 {
     private int id;
@@ -59,6 +60,15 @@ class Cadete : Persona
     {
         return (ListadoEntregados.Count) * 300;
     }
+
+    public Cadete(int id, string nom, string direc,string tel)
+    {
+        Id = id;
+        Nombre = nom;
+        Direccion = direc;
+        Telefono1 = tel;
+    }
+
 }
 
 class Cadeteria
@@ -89,20 +99,23 @@ class Pedido
     private string obs;
     private string cliente;
     private int estado;
+    private string dir;
 
     public int Nro { get => nro; set => nro = value; }
     public string Obs { get => obs; set => obs = value; }
     public int Estado { get => estado; set => estado = value; }
     public string Cliente { get => cliente; set => cliente = value; }
+    public string Dir { get => dir; set => dir = value; }
 
     string[]obsA={"Sin sal","Agregar Aderezo", "Sin Ketchup", "Agrandar pedido de papas", "Extra carne"};
     Random r = new Random();
 
-    public Pedido(string Nom){
+    public Pedido(string Nom,string dirN){
         Nro=r.Next(0,101);
         Obs=obsA[r.Next(0,5)];
         //El estado sera: 0:entregado, 1:pendiente, 2: No entregado
         Estado=r.Next(0,3);
         Cliente=Nom;
+        Dir=dirN;
     }
 }
